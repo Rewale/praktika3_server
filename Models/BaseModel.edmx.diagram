@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7c72228bdbed4ebc8a4a8ff44b9920c2" Name="Diagram1">
+        <EntityTypeShape EntityType="services_praktikaModel.C__MigrationHistory" Width="1.5" PointX="7.75" PointY="7" />
+        <EntityTypeShape EntityType="services_praktikaModel.AspNetRoles" Width="1.5" PointX="10" PointY="0.75" />
+        <EntityTypeShape EntityType="services_praktikaModel.AspNetUserClaims" Width="1.5" PointX="14.5" PointY="4.875" />
+        <EntityTypeShape EntityType="services_praktikaModel.AspNetUserLogins" Width="1.5" PointX="14.5" PointY="2.25" />
+        <EntityTypeShape EntityType="services_praktikaModel.AspNetUsers" Width="1.5" PointX="12.25" PointY="2.375" />
+        <EntityTypeShape EntityType="services_praktikaModel.Client" Width="1.5" PointX="0.75" PointY="8.25" />
+        <EntityTypeShape EntityType="services_praktikaModel.ClientService" Width="1.5" PointX="3" PointY="10.375" />
+        <EntityTypeShape EntityType="services_praktikaModel.DocumentByService" Width="1.5" PointX="5.25" PointY="10.875" />
+        <EntityTypeShape EntityType="services_praktikaModel.Employe" Width="1.5" PointX="10" PointY="3.375" />
+        <EntityTypeShape EntityType="services_praktikaModel.Gender" Width="1.5" PointX="1.5" PointY="14.25" />
+        <EntityTypeShape EntityType="services_praktikaModel.Manufacturer" Width="1.5" PointX="0.75" PointY="3.875" />
+        <EntityTypeShape EntityType="services_praktikaModel.Product" Width="1.5" PointX="3" PointY="3.125" />
+        <EntityTypeShape EntityType="services_praktikaModel.ProductPhoto" Width="1.5" PointX="5.25" PointY="7" />
+        <EntityTypeShape EntityType="services_praktikaModel.ProductSale" Width="1.5" PointX="5.25" PointY="3.625" />
+        <EntityTypeShape EntityType="services_praktikaModel.Role" Width="1.5" PointX="7.75" PointY="3.75" />
+        <EntityTypeShape EntityType="services_praktikaModel.Service" Width="1.5" PointX="0.75" PointY="17.5" />
+        <EntityTypeShape EntityType="services_praktikaModel.ServicePhoto" Width="1.5" PointX="3" PointY="20" />
+        <EntityTypeShape EntityType="services_praktikaModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="10" />
+        <EntityTypeShape EntityType="services_praktikaModel.Tag" Width="1.5" PointX="3" PointY="17.125" />
+        <AssociationConnector Association="services_praktikaModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="services_praktikaModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="services_praktikaModel.FK_AspNetUsers_Employe" />
+        <AssociationConnector Association="services_praktikaModel.FK_Client_Gender" />
+        <AssociationConnector Association="services_praktikaModel.FK_ClientService_Client" />
+        <AssociationConnector Association="services_praktikaModel.FK_ClientService_Service" />
+        <AssociationConnector Association="services_praktikaModel.FK_DocumentByService_ClientService" />
+        <AssociationConnector Association="services_praktikaModel.FK_ProductSale_ClientService" />
+        <AssociationConnector Association="services_praktikaModel.FK_Employe_Role" />
+        <AssociationConnector Association="services_praktikaModel.FK_Product_Manufacturer" />
+        <AssociationConnector Association="services_praktikaModel.FK_ProductPhoto_Product" />
+        <AssociationConnector Association="services_praktikaModel.FK_ProductSale_Product" />
+        <AssociationConnector Association="services_praktikaModel.FK_ServicePhoto_Service" />
+        <AssociationConnector Association="services_praktikaModel.AspNetUserRoles" />
+        <AssociationConnector Association="services_praktikaModel.AttachedProduct" />
+        <AssociationConnector Association="services_praktikaModel.TagOfClient" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
